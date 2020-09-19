@@ -1,0 +1,10 @@
+C:\Users\gugab\source\repos\WSMerge\WSMerge\bin\Release\WSMerge.exe.config
+C:\Users\gugab\source\repos\WSMerge\WSMerge\bin\Release\WSMerge.exe
+C:\Users\gugab\source\repos\WSMerge\WSMerge\bin\Release\WSMerge.pdb
+C:\Users\gugab\source\repos\WSMerge\WSMerge\obj\Release\WSMerge.csprojAssemblyReference.cache
+C:\Users\gugab\source\repos\WSMerge\WSMerge\obj\Release\WSMerge.Form1.resources
+C:\Users\gugab\source\repos\WSMerge\WSMerge\obj\Release\WSMerge.Properties.Resources.resources
+C:\Users\gugab\source\repos\WSMerge\WSMerge\obj\Release\WSMerge.csproj.GenerateResource.cache
+C:\Users\gugab\source\repos\WSMerge\WSMerge\obj\Release\WSMerge.csproj.CoreCompileInputs.cache
+C:\Users\gugab\source\repos\WSMerge\WSMerge\obj\Release\WSMerge.exe
+C:\Users\gugab\source\repos\WSMerge\WSMerge\obj\Release\WSMerge.pdb
