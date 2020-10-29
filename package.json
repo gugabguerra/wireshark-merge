@@ -1,0 +1,51 @@
+{
+  "name": "ws-merge",
+  "productName": "WS Merge",
+  "version": "2.2.0",
+  "description": "A simple tool that provides you a GUI to help you merge trace files .cap making use of CLI tool mergecap which is included in the standard Wireshark installation",
+  "author": "Gustavo Guerra",
+  "homepage": "https://github.com/gugabguerra",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gugabguerra/wireshark-merge.git",
+    "forkedFrom": "https://github.com/pbarbiero/basic-electron-react-boilerplate.git"
+  },
+  "build": {
+    "appId": "br.com.gustavobrandao.wsmerge",
+    "productName": "WS Merge",
+    "copyright": "Copyright © 2020 Gustavo Guerra"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "prod": "webpack --config webpack.build.config.js && electron --noDevServer .",
+    "dev": "webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js",
+    "build": "webpack --config webpack.build.config.js",
+    "package": "webpack --config webpack.build.config.js && electron-packager ./ --out=./builds --overwrite --asar --icon=src/assets/icon.ico",
+    "postpackage": "copy src\\lib\\mergecap \"builds\\WS Merge-win32-x64\\resources\" && electron-builder -w --prepackaged \"builds/WS Merge-win32-x64\""
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react": "^6.24.1",
+    "babili-webpack-plugin": "^0.1.2",
+    "css-loader": "^3.2.0",
+    "electron": "^7.1.2",
+    "electron-packager": "^14.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "fontsource-oxygen": "^3.0.9"
+  }
+}
