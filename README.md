@@ -5,4 +5,4 @@
     requires Wireshark installed (or portable)
     tested on Wireshark 3.0.13
 
-![gui preview](preview.png)
+![gui preview](preview.gif)
